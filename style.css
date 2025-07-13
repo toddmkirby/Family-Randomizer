@@ -7,9 +7,9 @@ body {
 
 .container {
   max-width: 600px;
-  margin: 50px auto;
+  margin: 100px auto; /* Increased top margin to move everything down */
   background-color: white;
-  padding: 30px;
+  padding: 40px; /* Increased padding */
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   text-align: center;
@@ -17,20 +17,25 @@ body {
 
 h1 {
   color: #333;
+  font-size: 32px; /* Larger heading */
+  margin-bottom: 30px; /* More space below heading */
 }
 
 ul {
   list-style-type: none;
   padding: 0;
-  margin: 20px 0;
+  margin: 30px auto; /* Increased margin */
+  max-width: 400px; /* Control the width of the list */
 }
 
 li {
-  padding: 10px;
-  margin: 5px 0;
+  padding: 12px;
+  margin: 8px 0;
   background-color: #f9f9f9;
   border-radius: 5px;
   transition: all 0.3s ease;
+  text-align: center; /* Center the text in list items */
+  font-size: 18px; /* Larger text */
 }
 
 li.selected {
@@ -44,11 +49,11 @@ button {
   background-color: #4CAF50;
   color: white;
   border: none;
-  padding: 12px 24px;
-  font-size: 16px;
+  padding: 15px 30px; /* Larger button */
+  font-size: 18px; /* Larger text */
   cursor: pointer;
   border-radius: 5px;
-  margin: 20px 0;
+  margin: 30px 0; /* More space around button */
   transition: background-color 0.3s;
 }
 
@@ -57,10 +62,10 @@ button:hover {
 }
 
 #result {
-  font-size: 24px;
-  font-weight: bold;
-  margin-top: 20px;
+  font-size: 32px; /* Much larger text */
+  font-weight: 800; /* Extra bold */
+  margin-top: 40px; /* More space above result */
   color: #4CAF50;
-  min-height: 36px;
+  min-height: 48px;
+  padding: 20px; /* Padding around result */
 }
-
